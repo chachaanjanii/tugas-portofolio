@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46db730133.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="sticky-top mynavbar">
+                <img src="Logo2.jpeg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Salsabila Intan Anjani</span> <br>from Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about--------->    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bg.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hallo, Nama saya Salsabila Intan Anjani biasa dipanggil chacha. Saya lulus SMA pada tahun 2021 dan tahun ini saya berkuliah di kampus yang berada di Karawang
+                        yang bernama Horizon University Indonesia yang sudah berdiri dari tahun 1990. Dulu yang bernama Kharisma Karawang menjadi Horizon University Indonesia
+                        pada tahun 2019.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"">Tempat, Tanggal Lahir</p>
+                        <p class="tab-links" onclick="opentab('experience')">Pengalaman</p>
+                        <p class="tab-links" onclick="opentab('education')">Pendidikan</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Tempat</span><br>Karawang</li>     
+                            <li><span>Tanggal Lahir</span><br>09 November 2003</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Nganggur</span><br></li>     
+                            <li><span>2022 - 2023</span><br>PT.Sebastian Citra Indonesia(Roti'o) sebagai Kasir</li>
+                            <li><span>2021</span><br>Nurelia Makeup Bagian Catering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Sekarang</span><br>Universitas Horizon Indonesia</li>     
+                            <li><span>2018 - 2021</span><br>SMA Takhassus Alqur'an</li>
+                            <li><span>2015 - 2018</span><br>SMPN 2 Karawang Timur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------services--------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design adalah istilah mengenai desaign visual yang diterapkan kepada media digital yaitu website, design yang ditunjukan untuk pengembangan dan styling informasi di internet untuk menyediakan fitur konsumen high-end dan memberikan kualitas estetika.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Web design adalah istilah mengenai desaign visual yang diterapkan kepada media digital yaitu website, design yang ditunjukan untuk pengembangan dan styling informasi di internet untuk menyediakan fitur konsumen high-end dan memberikan kualitas estetika.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>APP Design</h2>
+                <p>Web design adalah istilah mengenai desaign visual yang diterapkan kepada media digital yaitu website, design yang ditunjukan untuk pengembangan dan styling informasi di internet untuk menyediakan fitur konsumen high-end dan memberikan kualitas estetika.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> chachaanjanie23@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 081297043003 </p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/Salsabila Intan Anjani"><i class="fa-brands fa-facebook"></i></a> 
+                    <a href="https://www.instagram.com/chacha_anjanii/"><i class="fa-brands fa-instagram"></i></a>
+                    <a x`href="https://www.tiktok.com/@cacicu__?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                                                   
+                </div>
+            
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © chacha anjanii. Made <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>        
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }       
+    </script>   
+</body>
+</html>
